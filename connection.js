@@ -5,7 +5,7 @@ var mysqlConnection = mysql.createConnection({
     password:null,
     database:"employeeDb"
 })
-var connection = mysqlConnection.connect((err)=>{
+ mysqlConnection.connect((err)=>{
     if(err){
         console.log("Error in DB connection" + JSON.stringify(err, undefined,2))
     }else{
@@ -13,4 +13,4 @@ var connection = mysqlConnection.connect((err)=>{
     }
 })
 
-module.exports = connection;
+module.exports = mysqlConnection;
