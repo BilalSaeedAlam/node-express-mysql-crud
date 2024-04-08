@@ -51,16 +51,16 @@ npm start
 ```
 - Access the application in your web browser at http://localhost:3000.
 
-***Features***
+## Features
 - Create: Add a new employee to the database.
 - Read: Retrieve and display a list of all employees.
 - Update: Modify the details of an existing employee.
 - Delete: Remove an employee from the database.
 
-***Credits***
-This application is developed by Bilal Ahmed. It is based on the tutorials and resources provided by the Node.js, Express.js, and MySQL communities.
+## Credits
+- This application is developed by Bilal Ahmed. It is based on the tutorials and resources provided by the Node.js, Express.js, and MySQL communities.
 
-***License***
+## License
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
 ```bash
